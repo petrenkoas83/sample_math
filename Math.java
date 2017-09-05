@@ -13,11 +13,14 @@ public class Math {
 		switch (action) {
 			case "-":
 				r = subtraction(a,b);
+				System.out.printf("Result: %d\n", r);
 				break;
 			case "+":
 				r = addition(a,b);
+				System.out.printf("Result: %d\n", r);
 				break;
 			default:
+				r = null;
 				System.out.printf("Unknown operator '%s'!\n", action);
 				break;
 		}
