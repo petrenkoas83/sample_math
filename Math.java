@@ -24,6 +24,5 @@ public class Math {
 				System.out.printf("Unknown operator '%s'!\n", action);
 				break;
 		}
-		System.out.prinf("%d",r);
 	}
 }
